@@ -1,0 +1,29 @@
+<!--position sticky-->
+<!doctype html>
+<html>
+    <head>
+        <title>sticky position</title>
+        <style>
+            div.sticky{
+                position: -webkit-sticky;
+                position: sticky;
+                top: 0;
+                padding: 5px;
+                background-color: #cae8ca;
+                border: 2px solid#4caf50;
+            }
+        </style>
+        </head>
+        <body>
+            <p> try to<b>scroll </b>inside this frame to understand how sticky positioning works</p>
+            <p>note: edge15 and earlier version  does not support sticky position</p>
+            <div class="sticky">iam sticky</div>
+            <div style="padding-bottom: 2000px;">
+                <p> in this exampple the sticky element sticks to the top of the page(top:0),when you reach its scroll position</p>
+                <p>scroll back  to remove the stickyness</p>
+                <p>some text enable scrolling::Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <br><br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+        </body>
+        </html>
